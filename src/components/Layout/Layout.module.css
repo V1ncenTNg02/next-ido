@@ -1,0 +1,8 @@
+.layout {
+  @apply overflow-hidden;
+}
+
+.layoutContainer {
+  @apply max-w-1440
+  mx-auto;
+}

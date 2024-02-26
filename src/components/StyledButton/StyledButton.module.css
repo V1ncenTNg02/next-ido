@@ -1,0 +1,76 @@
+.button {
+  @apply px-5 
+  py-3
+  mr-2 
+  min-w-[60px]
+  h-auto
+  font-tektur
+  font-semibold
+  text-subBody
+  text-grey-50
+  rounded-[30px]
+  border 
+  border-grey-300
+  inline-flex 
+  items-center
+  justify-center
+
+  hover:opacity-80
+  hover:transition-opacity
+
+  disabled:text-grey-200
+  disabled:cursor-default
+  disabled:bg-grey-300;
+}
+
+.spinner {
+  @apply inline 
+  mr-2 
+  w-4 
+  h-4 
+  text-grey-500;
+}
+
+.buttonSmall {
+  @apply text-sm font-medium;
+}
+
+.buttonMedium {
+  @apply w-1/5 font-medium;
+}
+
+.buttonLarge {
+  @apply w-3/4 flex-nowrap font-bold;
+}
+
+.buttonFullWidth {
+  @apply w-full font-bold;
+}
+
+.colorTheme1 {
+  @apply bg-gradient-to-r
+  from-sky
+  to-brightPink
+  from-[-4.17%]
+  to-[104.58%];
+}
+
+.colorTheme2 {
+  @apply bg-gradient-to-r
+  from-rose
+  to-purple
+  to-[103.33%];
+}
+.colorTheme3 {
+  @apply bg-gradient-to-r
+  from-rose
+  to-purple
+  from-[2.38%]
+  to-[103.97%];
+}
+
+.loading {
+  width: 20px !important;
+  height: 20px !important;
+  @apply inline-block mr-5;
+}

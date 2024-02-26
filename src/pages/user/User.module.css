@@ -1,0 +1,114 @@
+.codesTable {
+  @apply table-auto
+  mx-auto
+  w-4/5;
+}
+
+.tableHeaderFont {
+  @apply w-[211px]
+  h-[30px]
+  text-2xl
+  font-medium
+  leading-9
+  font-tektur
+
+  bg-gradient-to-r
+  from-primary
+  to-brightPink
+  bg-clip-text
+  text-transparent;
+}
+
+.tableBorderVertical {
+  @apply border-r-2;
+}
+
+.tableContentFont {
+  @apply w-[345px]
+  h-[30px]
+  text-primary
+  text-lg
+  font-normal
+  font-tektur
+  leading-[27px]
+  border-t-2
+  p-6;
+}
+
+.tableContentFontWithBorder {
+  @apply w-[345px]
+  h-[30px]
+  text-primary
+  text-lg
+  font-normal
+  font-tektur
+  leading-[27px]
+  border-t-2
+  border-r-2
+  p-6;
+}
+
+.tableColumnWrapper {
+  @apply flex
+  items-center
+  gap-1;
+}
+
+.codeSection {
+  @apply flex
+  max-w-1440
+  w-full
+  mx-auto
+  flex-wrap
+  justify-around
+  items-center;
+}
+
+.codeContainer {
+  @apply min-w-[80px]
+  h-auto
+  py-2
+  px-[50px]
+  m-2
+  text-white
+  font-tektur
+  flex
+  items-center
+  text-center
+  justify-center
+  rounded-[30px]
+  bg-gradient-to-r
+  from-sky
+  to-brightPink;
+}
+
+.background {
+  @apply min-h-[90vh]
+  py-28
+  px-10;
+}
+
+.buttonWrapper {
+  @apply max-w-1440
+  mx-auto
+  flex
+  justify-center
+  items-center;
+}
+
+.signInContainer {
+  @apply flex
+  flex-col
+  justify-center
+  items-center
+  min-h-[80vh];
+}
+
+.loading {
+  width: 250px !important;
+  height: 25px !important;
+}
+
+.loading:before {
+  border: 3px solid #fff !important;
+}

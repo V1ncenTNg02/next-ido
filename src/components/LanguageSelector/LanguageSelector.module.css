@@ -1,0 +1,36 @@
+.buttonContainer {
+  @apply border-solid
+  border-black
+  inline-flex
+  items-center
+  justify-center
+  w-full
+  rounded-full
+  shadow-sm
+  p-2
+  bg-white
+  text-sm
+  font-medium
+  border-2;
+}
+
+.dropdownListContainer {
+  @apply absolute
+  w-14
+  border-2
+  border-solid
+  border-black
+  rounded-md
+  shadow-lg
+  bg-white
+  top-12
+  lg:right-0;
+}
+
+.languageBtn {
+  @apply flex
+  items-center
+  gap-2
+  my-1
+  justify-center;
+}

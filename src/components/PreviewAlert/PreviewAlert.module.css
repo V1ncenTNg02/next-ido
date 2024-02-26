@@ -1,0 +1,12 @@
+.previewAlert {
+  @apply bg-black
+    text-white
+    flex
+    py-1
+    items-center
+    justify-center;
+}
+
+.previewLink {
+  @apply font-bold;
+}

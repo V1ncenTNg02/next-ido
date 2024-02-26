@@ -1,0 +1,13 @@
+.responsiveMedia {
+  @apply flex-1
+
+  min-h-full
+  relative;
+}
+
+.video {
+  @apply object-cover
+  object-center
+  w-full
+  min-h-full;
+}

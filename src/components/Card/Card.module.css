@@ -1,0 +1,47 @@
+.imageWrapper {
+  @apply w-full
+  h-60;
+}
+
+.tag {
+  @apply text-center
+  hover:cursor-pointer
+  text-grey
+  font-[500]
+  pr-2
+  leading-5
+  mr-2;
+}
+.tag:not(:last-child) {
+  @apply border-r 
+  border-grey;
+}
+
+.iconInline {
+  @apply inline
+  align-middle;
+}
+
+.headingWrapper {
+  @apply text-primary
+  mt-4
+  line-clamp-1;
+}
+
+.cardBorder {
+  @apply flex 
+  flex-col 
+  gap-2
+  p-9
+  bg-white
+  rounded-2xl;
+  box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.05);
+}
+.tagWrapper {
+  @apply flex 
+  items-start;
+}
+
+.cardBasic {
+  @apply max-w-[490px]  mx-auto;
+}

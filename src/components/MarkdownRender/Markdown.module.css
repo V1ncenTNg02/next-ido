@@ -1,0 +1,12 @@
+.markdownStyle {
+  @apply prose
+  prose-sm
+  min-w-full
+  prose-headings:text-primary
+  prose-p:text-primary
+  prose-a:text-primary
+  prose-strong:text-primary
+  prose-li:text-primary
+  prose-blockquote:text-primary
+  prose-li:marker:text-primary;
+}

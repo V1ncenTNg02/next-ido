@@ -1,0 +1,161 @@
+.navigationOuter {
+  @apply bg-white
+  h-auto
+  z-10;
+}
+
+.navigationOuterExpand {
+  @apply min-h-screen
+  overflow-auto
+  lg:min-h-0;
+}
+
+.navigation {
+  @apply flex
+  relative
+  items-center
+  justify-between
+  h-16
+  max-w-1440
+  mx-auto
+  lg:flex-row
+  lg:items-center
+  lg:justify-start;
+}
+
+.logoBox {
+  @apply pr-10
+  pl-5
+  lg:border-r-grey-200
+  lg:pl-2
+  lg:border-r;
+}
+
+.menuOpen {
+  @apply block;
+}
+
+.menuClose {
+  @apply hidden;
+}
+
+.menuSection {
+  @apply p-10
+  absolute
+  top-16
+  right-0
+  h-auto
+  w-screen
+  text-primary
+  font-tektur
+  leading-5
+  font-[400]
+  z-10
+
+  lg:min-h-0
+  lg:static
+  lg:items-center
+  lg:justify-between
+  lg:border-0
+  lg:flex
+  lg:flex-row
+  lg:top-0
+  lg:flex-grow
+  lg:w-auto
+  lg:p-0;
+}
+
+.navList {
+  @apply lg:ml-5
+  lg:flex
+  lg:flex-row
+  lg:justify-between
+  lg:items-center
+  flex
+  justify-center
+  flex-col;
+}
+
+.button {
+  @apply px-4
+  block
+  lg:hidden;
+}
+
+.flexLayoutContainer {
+  @apply flex
+  pb-4
+  text-primary
+  font-tektur
+  items-center
+  gap-5
+  justify-center
+  lg:pb-0
+  lg:gap-0;
+}
+
+.moreColumnsContiner {
+  @apply hidden
+  z-10
+  lg:block
+  lg:absolute
+  lg:top-[65px]
+  lg:left-0
+  lg:right-0
+  bg-gradient-to-b
+  from-white
+  to-[#f2f2f2];
+}
+
+.mobileBoxContainer {
+  @apply block
+  lg:hidden;
+}
+
+.twitterInfoContainer {
+  @apply flex
+  items-center
+  justify-start
+  mt-2
+  mb-4
+  gap-2
+  cursor-pointer
+
+  lg:justify-center
+  lg:mt-0
+  lg:mb-0
+  lg:mr-4;
+}
+
+.twitterAvatar {
+  @apply w-8
+  h-8
+
+  border-black
+  max-w-[36px]
+  border-solid
+  rounded-full;
+}
+
+.userInfoContainer {
+  @apply min-w-[150px]
+  text-primary
+  rounded-md
+  h-auto
+  absolute
+  mb-4
+  py-2
+  lg:p-4
+  lg:block
+  top-[50px]
+
+  lg:top-[70px]
+
+  bg-gradient-to-r
+  from-[#EAE9F3]
+  to-[#DAEFFF];
+}
+
+.userInfoLink {
+  @apply p-2;
+}

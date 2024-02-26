@@ -1,0 +1,28 @@
+.titleContainer {
+  @apply flex
+  justify-between
+  items-center
+  cursor-pointer
+  pt-[20px]
+  pb-[20px]
+  text-primary
+  border-t
+  border-solid
+  border-t-primary;
+}
+
+.noBottomBorder {
+  border-bottom: 0 !important;
+}
+
+.itemContainer:last-child .titleContainer {
+  @apply border-b
+  border-solid
+  border-b-[#0c0ec8];
+}
+
+.itemContainer:last-child .markdownContainer {
+  @apply border-b
+  border-solid
+  border-[#0c0ec8];
+}

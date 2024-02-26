@@ -1,0 +1,17 @@
+.columnContainer {
+  @apply flex
+  flex-col
+  gap-2
+  pl-8;
+}
+
+.columnLinkContainer {
+  @apply mb-3.5
+  flex
+  items-center
+  gap-x-3;
+}
+
+.navItem {
+  padding: 0 !important;
+}

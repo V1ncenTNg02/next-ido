@@ -1,0 +1,145 @@
+.userProfileContainer {
+  @apply max-w-1440
+  w-full
+  mx-auto
+  px-3
+  text-primary
+  lg:px-0;
+}
+
+.userInfoWrapper {
+  @apply flex
+  items-start
+  justify-start
+  gap-3;
+}
+
+.stepDescriptionWrapper {
+  @apply min-w-[173px]
+  flex
+  items-center
+  justify-center
+  flex-col
+  mt-5
+
+  lg:items-start
+  lg:justify-start;
+}
+
+.twitterAvatar {
+  @apply w-14
+  h-14
+  rounded-full;
+}
+
+.usernameText {
+  @apply mb-0;
+}
+
+.userSection {
+  @apply grid
+  grid-cols-1
+  gap-[20px]
+  lg:grid-cols-5
+  lg:gap-[20px];
+}
+
+.userPointsContainer {
+  @apply rounded-[20px]
+  text-white
+  p-[15px]
+  my-[15px]
+  w-full
+  bg-gradient-to-r
+  from-rose
+  to-primary;
+}
+
+.pointsCol {
+  @apply grid
+  grid-cols-2
+  gap-2;
+}
+
+.userSectionLeft {
+  @apply col-span-2
+  flex
+  flex-col
+  items-center
+  justify-center
+  w-full
+  gap-4
+  h-auto;
+}
+
+.userSectionRight {
+  @apply col-span-3
+  h-full
+  min-w-full
+  relative
+  p-5
+  gap-2
+  lg:p-10;
+}
+
+.rankingContainer {
+  @apply flex
+  w-full
+  h-[118px]
+  bg-gradient-to-r
+  from-primary
+  to-brightPink
+  from-[1.02%]
+  to-[79.36%];
+}
+
+.iconImageContainer {
+  @apply grid
+  grid-cols-1
+  gap-[20px]
+  lg:gap-[50px]
+  lg:grid-cols-8;
+}
+
+.stageDisplayWrapper {
+  @apply flex
+  flex-col
+  justify-center
+  items-center
+  py-5
+  m-10
+  gap-3;
+}
+
+.hexagonImageContainer {
+  @apply w-[134px]
+  h-[148px]
+  flex
+  justify-center
+  items-center
+  bg-no-repeat
+  bg-contain
+  bg-hexagon
+  lg:max-w-[134px];
+}
+
+.vectorContainer {
+  @apply hidden
+  lg:w-[134px]
+  lg:flex
+  lg:justify-center
+  lg:items-center
+  lg:absolute
+  lg:top-[32%]
+  lg:-translate-x-[45%]
+  xl:-translate-x-[30%];
+}
+
+.iconContainer {
+  @apply absolute
+  top-1/2
+  left-1/2
+  transform
+  -translate-x-1/2
+  -translate-y-1/2;
+}

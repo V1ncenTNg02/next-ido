@@ -1,0 +1,10 @@
+.columnContainer {
+  @apply flex
+  p-2
+  flex-col
+  lg:p-5;
+}
+
+.invertedBox {
+  background: rgba(255, 255, 255, 0.07);
+}

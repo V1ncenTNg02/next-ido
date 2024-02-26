@@ -1,0 +1,22 @@
+.marqueeOuterContainer {
+  @apply mt-[50px]
+  flex
+  flex-col
+  items-center;
+}
+
+.marqueeTitle {
+  @apply text-center
+  mb-8;
+}
+
+.marqueeContainer {
+  @apply flex
+  gap-x-16 
+  mb-10;
+}
+
+.logImg {
+  @apply h-[56px]
+  w-[200px];
+}

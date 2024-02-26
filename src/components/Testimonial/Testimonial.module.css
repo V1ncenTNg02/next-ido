@@ -1,0 +1,66 @@
+.testimonialContainer {
+  box-shadow: 7px 8px 10px 3px rgba(0, 0, 0, 0.1);
+  @apply grid
+  grid-cols-1
+  gap-4
+  p-10
+  w-full
+  bg-white
+  rounded-[30px]
+  lg:grid-cols-2
+  lg:p-16;
+}
+
+.testimonialWrapper {
+  @apply flex
+  flex-col
+  items-start
+  justify-center
+  mx-5;
+}
+
+.image {
+  @apply h-[20rem]
+  w-full
+
+  lg:w-11/12
+  lg:h-[20rem];
+}
+
+.ratingWrapper {
+  @apply flex
+  items-center
+  mb-6
+  md:mb-8;
+}
+
+.commentsWrapper {
+  @apply mb-6
+  md:mb-8;
+}
+
+.introWrapper {
+  @apply flex
+  items-center;
+}
+
+.logoWrapper {
+  @apply h-full
+  w-full;
+}
+
+.lineWrapper {
+  @apply h-14
+  w-px
+  bg-black
+  mx-4;
+}
+
+.logoImgWrapper {
+  @apply h-14
+  w-48;
+}
+
+.textColorWrapper {
+  @apply text-primary;
+}

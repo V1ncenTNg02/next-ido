@@ -1,0 +1,4 @@
+.navItem {
+  @apply py-2
+  lg:p-5;
+}

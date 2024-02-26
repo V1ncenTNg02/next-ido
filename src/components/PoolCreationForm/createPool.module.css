@@ -1,0 +1,123 @@
+.createPoolContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.formContainer {
+  @apply flex
+  flex-col;
+  gap: 15px;
+  margin-bottom: 50px;
+  background: #898989;
+  padding: 50px;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.formContainer input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.selection {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.picker {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.createBtn {
+  @apply font-tektur;
+  margin-top: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: unhoverAnimation 0.3s ease forwards;
+  height: 40px;
+}
+
+.createBtn:hover {
+  animation: hoverAnimation 0.3s ease forwards;
+}
+
+@keyframes hoverAnimation {
+  from {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: none;
+  }
+  to {
+    background-color: #000000;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  }
+}
+
+@keyframes unhoverAnimation {
+  from {
+    background-color: #000000;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  }
+  to {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: none;
+  }
+}
+
+.loading {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.loading::before {
+  border: 2px solid #898989 !important;
+}
+
+.loadingForm {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.loadingForm::before {
+  border: 10px solid #898989 !important;
+}
+
+.errorMessage {
+  @apply text-error;
+}
+
+.approve {
+  margin-top: 20px;
+  background: white !important;
+  color: black !important;
+  border: 0;
+  border-radius: 5px !important;
+}
+
+.remainderContainer {
+  @apply font-tektur
+  text-xl
+  text-error;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

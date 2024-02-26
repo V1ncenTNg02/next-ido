@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+model User {
+  id                   Int            @id @default(autoincrement())
+  twitter              String         @db.VarChar(255)
+  twitterAvatar        String         @db.VarChar(255)
+  etherAddress         String         @unique @db.VarChar(100)
+  CreatedReferralCodes ReferralCode[]
+  ReferredBy           ReferralCode[] @relation("Level1User")
+  score                Int            @default(0) @db.Integer
+}
+
+model ReferralCode {
+  id             Int     @id @default(autoincrement())
+  refCode        String  @unique @db.VarChar(255)
+  isUsed         Boolean @default(false)
+  creator        User    @relation(fields: [creatorId], references: [id])
+  creatorId      Int
+  referredUser   User?   @relation("Level1User", fields: [referredUserId], references: [id])
+  referredUserId Int?
+}
+
+model Project {
+  id          Int     @id @default(autoincrement())
+  contract    String  @db.VarChar(255)
+  poolIndex   Int     @db.Integer
+  poolName    String  @db.VarChar(255)
+  SBKey       String  @db.VarChar(255)
+  slug        String  @db.VarChar(255)
+  projectIcon String  @db.VarChar(255)
+  isSuccess   Boolean @default(false)
+  poolInfo    Json    @db.Json
+  netId       Int     @default(5) @db.Integer
+}

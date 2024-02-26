@@ -1,0 +1,10 @@
+.container {
+  @apply max-w-1440
+  w-full
+  p-20
+  mx-auto
+  flex
+  items-center
+  justify-center
+  flex-col;
+}

@@ -1,0 +1,133 @@
+.twoColsWrapper {
+  @apply grid
+  grid-cols-1
+  gap-x-10
+  gap-y-5
+  mt-12
+  text-white
+  mx-5
+
+  lg:grid-cols-12
+  lg:max-w-none
+  lg:mt-20;
+}
+
+.flexWrapper {
+  @apply w-full
+  flex
+  items-center
+  justify-between
+  flex-row
+  mb-3
+  lg:mb-1;
+}
+
+.flexColWrapper {
+  @apply flex-col
+  items-start
+  gap-y-5
+  md:flex-row;
+}
+
+.loadingContainer {
+  @apply h-full
+  w-full
+  min-h-[300px]
+  flex
+  items-center
+  justify-center;
+}
+
+.loading {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.loading:before {
+  border: 5px solid #1e1f87 !important;
+}
+
+.amountInput {
+  @apply px-2
+  py-1
+  flex-1
+  outline-none
+  rounded-lg
+  text-black
+  w-full
+
+  md:flex-[0.7];
+}
+
+.outerSection {
+  @apply font-tektur
+  bg-gradient-to-tr
+  from-brightPink
+  to-primary
+  p-[10px]
+  text-sm
+  lg:p-9
+  rounded-xl
+  flex
+  flex-col
+  gap-10
+  w-full;
+}
+
+.progressBarInnerSection {
+  @apply h-4
+  rounded-full
+  bg-gradient-to-r
+  from-primary
+  to-brightPink
+  from-[1.84%]
+  to-[126.95%]
+  w-full;
+}
+
+.progressBarOuterSection {
+  @apply overflow-hidden
+  rounded-full
+  bg-grey-200
+  w-full;
+}
+
+.inputWrapper {
+  @apply outline
+  outline-1
+  rounded-xl
+  flex
+  flex-row
+  justify-between
+  px-4
+  py-2;
+}
+
+.etherAddressTd {
+  @apply inline-flex
+  gap-2
+  justify-end
+  w-full
+  hover:cursor-pointer
+  items-center;
+}
+
+.auctionCardTitle {
+  @apply text-start
+  text-subHeader
+  bg-gradient-to-r
+  from-primary
+  to-brightPink
+  text-transparent
+  bg-clip-text;
+}
+
+.auctionCardOuterSection {
+  @apply w-full
+  mx-auto
+  text-sm
+  bg-white
+  text-primary
+  font-tektur
+  min-h-[372px];
+}

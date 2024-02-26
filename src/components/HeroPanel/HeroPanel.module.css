@@ -1,0 +1,60 @@
+.heroPanel {
+  @apply flex-1
+  relative
+  overflow-hidden
+  mb-28
+  lg:mb-10
+  bg-black;
+}
+
+.gradientBar {
+  @apply absolute
+  top-0
+  left-0
+  right-0
+  min-h-full
+  bg-gradient-to-b from-black;
+}
+
+.darkFilter {
+  @apply filter
+  brightness-100;
+}
+
+.imageWrapper {
+  @apply w-full
+  h-800
+  lg:h-600;
+}
+
+.bgScale {
+  @apply scale-110;
+  transition: all 0.3s ease-in-out;
+}
+
+.heroPanelTitle {
+  @apply flex
+  flex-col
+  h-full
+  p-10
+  justify-center
+  text-white
+
+  lg:p-16;
+}
+
+.titlesWrapper {
+  @apply absolute
+  left-0
+  right-0
+  w-full
+  inset-0
+  max-w-1440
+  mx-auto
+  items-center;
+}
+
+.logoWrapper {
+  @apply h-12
+  mb-5;
+}

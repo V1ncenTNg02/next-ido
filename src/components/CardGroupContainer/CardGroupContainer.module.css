@@ -1,0 +1,35 @@
+.fullWidthWrapper {
+  @apply grid
+  grid-cols-1
+  mx-5 
+  mt-12;
+}
+
+.twoColsWrapper {
+  @apply grid
+  grid-cols-1
+  gap-x-12
+  gap-y-12
+  mx-5
+  mt-12
+
+  lg:grid-cols-2
+  lg:max-w-none 
+  lg:mx-16 
+  lg:mt-20;
+}
+
+.threeColsWrapper {
+  @apply mx-5 
+  mt-12
+  
+  grid 
+  grid-cols-1 
+  gap-x-12 
+  gap-y-12
+
+  lg:grid-cols-3 
+  lg:max-w-none 
+  lg:mx-16 
+  lg:mt-20;
+}

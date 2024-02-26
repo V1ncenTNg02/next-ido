@@ -1,0 +1,49 @@
+.selectorContainer {
+  @apply cursor-pointer
+  my-2
+  relative
+  lg:my-0
+  lg:mx-3;
+}
+
+.selectorWrapper {
+  @apply flex
+  items-center
+  justify-start
+  outline-none
+  hover:outline
+  hover:opacity-80
+  hover:bg-grey-300
+  hover:border
+  hover:rounded-md
+  gap-2
+  p-2
+
+  lg:justify-center;
+}
+
+.dropdownContainer {
+  @apply rounded-lg
+  border-2
+  border-primary
+  min-w-[120px]
+  bg-white
+  flex
+  flex-col
+  items-center
+  gap-2
+  p-2
+  mt-2
+  absolute
+  lg:right-0
+  z-10;
+}
+
+.image {
+  @apply w-6
+  rounded-full
+  my-[2px]
+  max-w-[24px]
+  max-h-[24px]
+  h-6;
+}

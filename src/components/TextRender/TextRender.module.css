@@ -1,0 +1,9 @@
+.rainboText {
+  @apply bg-gradient-to-r
+  from-primary
+  to-brightPink
+  from-[1.02%]
+  to-[79.36%]
+  text-transparent
+  bg-clip-text;
+}

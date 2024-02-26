@@ -1,0 +1,14 @@
+.dropdownContainer {
+  @apply mt-0.5
+  w-full
+  mx-auto
+  min-w-full;
+}
+
+.threeCol {
+  @apply lg:grid grid-cols-3 gap-x-3;
+}
+
+.fourCol {
+  @apply lg:grid grid-cols-4 gap-x-3;
+}

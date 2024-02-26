@@ -1,0 +1,83 @@
+.titleSection {
+  @apply text-primary
+  text-center;
+}
+
+.cardSection {
+  @apply flex
+  flex-col
+  gap-20
+  items-center
+  lg:flex-nowrap
+  lg:flex-row
+  lg:items-center
+  lg:justify-center
+  lg:gap-0;
+}
+
+.headerSection {
+  @apply bg-gradient-to-r
+    from-primary
+    to-brightPink
+    from-[1.02%]
+    to-[79.36%]
+    text-transparent
+    bg-clip-text
+    text-center
+    mb-16
+    px-5
+    md:px-10;
+}
+
+.card {
+  @apply flex
+    flex-col
+    items-start
+    self-baseline
+    gap-2
+    px-10
+    w-full;
+}
+
+.cardTitleSection {
+  @apply w-full
+  h-auto
+  flex
+  items-center
+  justify-between
+  px-2;
+}
+
+.checkMark {
+  @apply scale-150
+  text-grey-400;
+}
+
+.checkMarkDone {
+  color: green;
+  @apply scale-150
+  text-success-500;
+}
+
+.textContainer {
+  @apply block
+  my-20
+  mb-20
+  lg:my-20;
+}
+
+.gridContainer {
+  @apply mx-10
+  my-20
+  grid
+  grid-cols-1
+  gap-20
+  lg:grid-cols-4
+  lg:gap-4;
+}
+
+.stepItem {
+  @apply flex
+  flex-col
+  px-10;
+}

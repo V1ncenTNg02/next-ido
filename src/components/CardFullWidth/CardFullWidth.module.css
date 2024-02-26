@@ -1,0 +1,32 @@
+.imageWrapper {
+  @apply w-full
+  h-48
+  mb-6
+  md:h-[35rem]
+  rounded-[15px];
+}
+
+.infoWrapper {
+  @apply justify-between
+    h-full
+    mb-10
+    md:flex;
+}
+
+.linkWrapper {
+  @apply flex
+  mx-0
+  lg:mx-4;
+}
+
+.iconWrapper {
+  @apply leading-6
+  ml-2
+  mt-1.5;
+}
+
+.buttonWrapper {
+  @apply flex
+  justify-center
+  items-center;
+}

@@ -1,0 +1,58 @@
+.iconGroupContainer {
+  @apply flex
+  items-center
+  pt-2
+  justify-center;
+}
+
+.tabWrapper {
+  @apply whitespace-nowrap
+  border-b-2
+  cursor-pointer
+  py-4
+  px-1
+  text-lg
+  font-medium;
+}
+
+.active {
+  @apply border-primary
+  text-primary;
+}
+
+.unactive {
+  @apply border-transparent
+  text-primary-400
+  hover:border-primary-400
+  hover:text-primary-500;
+}
+
+.selectWrapper {
+  @apply block
+  w-full
+  rounded-md
+  outline-0
+  border-primary-500
+  py-2
+  pl-3
+  pr-10
+  cursor-pointer
+  text-primary
+  text-base
+  sm:text-sm;
+}
+
+.heroPanelContainer {
+  @apply rounded-none;
+}
+
+.swapSectionContainer {
+  @apply my-20
+  px-0
+  lg:px-8
+  pb-4
+  max-w-1440
+  mx-auto
+  font-tektur
+  relative;
+}

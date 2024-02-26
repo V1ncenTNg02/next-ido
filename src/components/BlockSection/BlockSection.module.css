@@ -1,0 +1,49 @@
+.whiteBg {
+  @apply bg-white;
+}
+
+.greyBg {
+  @apply bg-[#F7F7F7;];
+}
+
+.darkBg {
+  @apply text-white
+  bg-primary;
+}
+
+.skyBlueBg {
+  @apply text-white 
+  bg-gradient-to-r
+  from-[#EAE9F3]
+  to-[#DAEFFF];
+}
+
+.slateBlueBg {
+  @apply text-white
+  bg-gradient-to-tr
+  from-primary
+  to-brightPink;
+}
+
+.bluePurpleReverse {
+  @apply text-white
+  bg-gradient-to-t
+  from-primary
+  to-rose;
+}
+
+.purplePinkGradientBg {
+  @apply text-white
+  bg-gradient-to-b
+  from-[-38.67%]
+  via-[59.66%]
+  to-[144.62%]
+  from-[#c4d2eb]
+  via-white
+  to-[#ffdfdf];
+}
+
+.container {
+  @apply px-4
+  py-6;
+}

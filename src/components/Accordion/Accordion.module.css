@@ -1,0 +1,52 @@
+.accordionOuterContainer {
+  @apply flex
+  flex-col
+  items-center;
+}
+
+.accordionContainer {
+  @apply mb-10
+  pt-[20px]
+  pb-[112px]
+  pl-[20px]
+  pr-[20px]
+  flex
+  flex-col
+  items-center
+
+  lg:w-full
+  lg:pl-0
+  lg:pr-0;
+}
+
+.titleContainer {
+  @apply flex
+  flex-col
+  text-center
+  lg:w-full
+  
+  text-white;
+}
+
+.itemsContainer {
+  @apply mt-[80px]
+  w-full;
+}
+
+.contactContainer {
+  @apply mt-[80px];
+}
+
+.noteContainer {
+  @apply mb-[16px];
+}
+
+.contactButtonContainer {
+  @apply flex
+  flex-col
+  items-center;
+}
+
+.contactButton {
+  @apply w-[100px];
+}

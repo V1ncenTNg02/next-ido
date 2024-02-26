@@ -1,0 +1,57 @@
+.teamMemberWrapper {
+  @apply flex
+  flex-col
+  items-center;
+}
+
+.teamMemberMarginBottom {
+  @apply mb-5
+  lg:mb-16;
+}
+
+.avatarWrapper {
+  @apply h-20
+  w-20
+  mb-5
+  md:mb-6
+  rounded-full
+  overflow-hidden;
+}
+
+.infoWrapper {
+  @apply text-center
+  text-primary;
+}
+
+.titleWrapper {
+  @apply mb-3
+  md:mb-4;
+}
+
+.descriptionWrapper {
+  @apply mb-5
+  max-w-[400px]
+  min-h-[70px];
+}
+
+.socialWrapper {
+  @apply flex
+  justify-center
+  items-center
+  h-6;
+}
+
+.anchorContainer {
+  @apply flex
+  items-center
+  bg-none
+  w-8
+  h-8
+  rounded-full
+  justify-center;
+}
+
+.iconStyles {
+  @apply mx-1.5
+  inline-block;
+}

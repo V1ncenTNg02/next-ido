@@ -1,0 +1,46 @@
+.basicButton {
+  @apply rounded-[30px]
+  w-auto
+  min-w-[60px]
+  h-auto
+  py-[6px]
+  px-[53px]
+  my-auto
+  text-center
+  font-bold
+  mr-4
+  line-clamp-1
+  lg:w-auto
+  hover:opacity-75
+  hover:cursor-pointer;
+}
+
+.theme1 {
+  @apply text-white
+  bg-gradient-to-r
+  from-sky
+  to-brightPink
+  from-[-4.17%]
+  to-[104.58%];
+}
+
+.theme2 {
+  @apply text-white
+  bg-gradient-to-r
+  from-rose
+  to-purple
+  to-[103.33%];
+}
+
+.theme3 {
+  @apply text-white
+  bg-gradient-to-r
+  from-rose
+  to-purple
+  from-[2.38%]
+  to-[103.97%];
+}
+
+.largeButton {
+  @apply w-2/3 p-2;
+}

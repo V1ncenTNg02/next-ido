@@ -1,0 +1,43 @@
+.itemContainer {
+  @apply flex
+  items-start
+  justify-start
+  gap-2
+  p-2
+  text-primary
+  font-tektur
+  hover:bg-grey-200
+  hover:rounded-2xl
+  lg:min-h-[80px];
+}
+
+.textWrapper {
+  @apply flex
+  items-start
+  justify-start
+  min-h-[50px]
+  line-clamp-2
+  flex-col
+  gap-x-1
+  mt-1
+  mb-1;
+}
+
+.linkWrapper {
+  @apply bg-none 
+  font-semibold;
+  background: none !important;
+}
+
+.image {
+  @apply w-6
+  rounded-full
+  my-[2px]
+  max-w-[24px]
+  max-h-[24px]
+  h-6;
+}
+
+.descriptionText {
+  @apply lg:max-w-[280px] font-[500];
+}

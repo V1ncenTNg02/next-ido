@@ -1,0 +1,8 @@
+.groupWrapper {
+  @apply flex
+  items-center
+ 
+  lg:flex-wrap
+  lg:gap-2
+  lg:mt-5;
+}

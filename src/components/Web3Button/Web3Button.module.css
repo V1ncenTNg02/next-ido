@@ -1,0 +1,33 @@
+.sharedButtonWrapper {
+  @apply flex
+  items-center
+  justify-center
+  border-solid
+  border-[1px]
+  bg-gradient-to-r
+  from-sky
+  to-brightPink
+  rounded-full
+  min-w-[100px]
+  font-tektur
+  p-4
+  gap-2
+  h-2
+  lg:w-auto
+  disabled:opacity-50
+  disabled:text-white;
+}
+
+.loading {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.loading:before {
+  border: 2px solid #6b6464 !important;
+}
+
+.claimButton {
+  @apply min-w-full
+  mt-5;
+}

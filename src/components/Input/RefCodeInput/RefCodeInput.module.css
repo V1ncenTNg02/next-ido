@@ -1,0 +1,91 @@
+.backgroundLayer {
+  @apply bg-[#F7F7F7]
+  bg-no-repeat
+  w-full
+  h-[95vh]
+  bg-center
+  flex
+  items-center;
+}
+
+.bodyContent {
+  @apply max-w-1440
+  mx-auto
+  px-2
+  grid
+  grid-cols-1
+  lg:px-32
+  lg:grid-cols-3;
+}
+
+.imageWrapper {
+  @apply hidden
+  lg:block
+  lg:col-span-1
+  bg-signupBg
+  bg-center
+  bg-cover
+  w-full
+  h-auto
+  min-w-[400px]
+  min-h-[600px]
+  mx-auto;
+}
+
+.headerText {
+  @apply bg-gradient-to-r
+  from-primary
+  to-brightPink
+  from-[1.02%]
+  to-[79.36%]
+  bg-clip-text
+  text-transparent
+  py-10
+  text-center;
+}
+
+.form {
+  @apply flex
+  flex-col
+  items-center
+  justify-start;
+}
+
+.inputGroups {
+  @apply flex
+  items-center
+  justify-center
+  gap-2
+  lg:gap-3;
+}
+
+.input {
+  transform: skew(-20deg);
+  @apply w-[10%]
+  h-auto
+  p-2
+  rounded-md
+  outline-none
+
+
+  md:text-2xl
+
+  lg:w-1/12
+  lg:h-auto
+  lg:py-2
+  lg:text-4xl
+  focus:shadow-lg
+
+
+  bg-white
+  text-primary
+  font-tektur
+  text-xl
+  text-center
+  font-normal;
+}
+
+.button {
+  @apply my-10
+  max-w-[65%];
+}
