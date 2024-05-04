@@ -18,6 +18,6 @@ Postgres, Prisma (ORM)
 Vercel, Storyblok
 
 ## Demo
-![Image1]()
-![Image2]()
-![Image3]()
+![Image1](/public/Image1.png)
+![Image2](/public/Image2.png)
+![Image3](/public/Image3.png)
